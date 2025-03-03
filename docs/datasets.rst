@@ -29,6 +29,7 @@ Detailed description
     - File Type: .cif
     - Relevant link: `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_
     - Availablity: Free
+    - Clone date: 3 March 2025
     
     The CSD MOF collection contains just over 14,000 3D MOF crystal structures available to use for free in academic research.
     The information about curation strategy has not been found yet (add if you know). They mention that the 3D MOF structures with no disorder in the main framework are around 27,000 in the CSD,
