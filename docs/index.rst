@@ -8,6 +8,7 @@ Welcome to LSMO Shared Datasets's documentation!
    readme
    installation
    usage
+   datasets
    contributing
    authors
    history
