@@ -23,7 +23,7 @@ CSD MOF Collection Original           /disk2/CSD_MOF_Collection_AsIs    14,077  
 Detailed description
 ^^^^^^^^^^^^^^^^^^^^
 
-1. CSD MOF Collection Original:
+1. **CSD MOF Collection Original:**
     - Location: /disk2/CSD_MOF_Collection_AsIs
     - Count: 14,077
     - File Type: .cif
@@ -34,6 +34,6 @@ Detailed description
     The information about curation strategy has not been found yet (add if you know). They mention that the 3D MOF structures with no disorder in the main framework are around 27,000 in the CSD,
     and after curation they have 14,000 structures that are computation ready and have significant void space.
     
-    Naming: The file names have the CCDC code + "_P1" + either "_H" or "_charged" or "_charged_H" + ".cif" as the extension.
+    **Naming:** The file names have the CCDC code + "_P1" + either "_H" or "_charged" or "_charged_H" + ".cif" as the extension.
     Example file names: "kivfay_P1_H.cif", "kivlou_P1_charged.cif", "kinrik_P1_charged_H.cif"
 
