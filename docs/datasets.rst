@@ -45,7 +45,7 @@ Detailed description
     - Count: 10,367 (for more detail visit the link)
     - File Type: .cif, .csv
     - Relevant link: `CoRE MOF <https://zenodo.org/records/14184621>`_
-    - Availability: Free
+    - Availability: `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/legalcode>`_
     - Clone date: 3 March 2025
 
     The CoRE MOF database is a collection of MOFs where the structures are taken from the CSD and are cleaned and processed. 
@@ -60,9 +60,9 @@ Detailed description
 3. **MOFChecker Original:**
     - Location: /disk2/MOFChecker_AsIs
     - Count: For more detail visit the link
-    - File Type: .cif, .csv
+    - File Type: .csv
     - Relevant link: `MOFChecker <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_
-    - Availability: Free
+    - Availability: `MIT License <https://opensource.org/license/MIT>`_
     - Clone date: 3 March 2025
 
     This dataset includes csv files containing information about the status of the cif files in different databases. 
