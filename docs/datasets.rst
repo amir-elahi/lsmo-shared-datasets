@@ -13,11 +13,12 @@ Summary
 
 The datasets that are available are:
 
-====================================  ================================  ======  =========  =======================================================================  ===========
-Dataset                               Location                          Count   File Type  Relevant link                                                            Availablity
-====================================  ================================  ======  =========  =======================================================================  ===========
-CSD MOF Collection Original           /disk2/CSD_MOF_Collection_AsIs    14,077   .cif      `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_     Free
-====================================  ================================  ======  =========  =======================================================================  ===========
+====================================  ================================  ======  =================  =======================================================================  ===========
+Dataset                               Location                          Count   File Type          Relevant link                                                            Availablity
+====================================  ================================  ======  =================  =======================================================================  ===========
+CSD MOF Collection Original           /disk2/CSD_MOF_Collection_AsIs    14,077   .cif              `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_     Free
+CoRE MOF Original                     /disk2/CoRE_MOF_AsIs              10,367  .cif, .csv         `CoRE MOF <https://zenodo.org/records/14184621>`_                         Free 
+====================================  ================================  ======  =================  =======================================================================  ===========
 
 
 Detailed description
@@ -38,3 +39,18 @@ Detailed description
     **Naming:** The file names have the CCDC code + "_P1" + either "_H" or "_charged" or "_charged_H" + ".cif" as the extension.
     Example file names: "kivfay_P1_H.cif", "kivlou_P1_charged.cif", "kinrik_P1_charged_H.cif"
 
+2. **CoRE MOF Original:**
+    - Location: /disk2/CoRE_MOF_AsIs
+    - Count: 10,367 (for more detail visit the link)
+    - File Type: .cif, .csv
+    - Relevant link: `CoRE MOF <https://zenodo.org/records/14184621>`_
+    - Availablity: Free
+    - Clone date: 3 March 2025
+
+    The CoRE MOF database is a collection of MOFs where the structures are taken from the CSD and are cleaned and processed. 
+    For more information on the cleaning and processing, visit the `Paper <https://pubs.acs.org/doi/10.1021/acs.jced.9b00835>`_ and the `Zenedo Link <https://zenodo.org/records/14184621>`_.
+    The database has .csv files where some properties (e.g. topology and Zeo++) of the MOFs are stored.
+
+    **Naming:** The file names are diverse so check the directory to see the naming conventions.
+    Usually they have the CCDC code + either "_clean_pacman" or "_freeONLY" or "_clean" or "_manual" + ".cif" as the extension.
+    Example file names: "UGUXAV_clean_pacman.cif", "BEPNER_freeONLY.cif", "kinrik_clean.cif", "MEJZUY_clean.cif"
