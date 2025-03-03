@@ -13,12 +13,13 @@ Summary
 
 The datasets that are available are:
 
-====================================  ================================  ======  =================  =======================================================================  ===========
-Dataset                               Location                          Count   File Type          Relevant link                                                            Availablity
-====================================  ================================  ======  =================  =======================================================================  ===========
-CSD MOF Collection Original           /disk2/CSD_MOF_Collection_AsIs    14,077   .cif              `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_     Free
-CoRE MOF Original                     /disk2/CoRE_MOF_AsIs              10,367  .cif, .csv         `CoRE MOF <https://zenodo.org/records/14184621>`_                         Free 
-====================================  ================================  ======  =================  =======================================================================  ===========
+====================================  ================================  ======  =================  =======================================================================
+Dataset                               Location                          Count   File Type          Relevant link                                                          
+====================================  ================================  ======  =================  =======================================================================
+CSD MOF Collection Original           /disk2/CSD_MOF_Collection_AsIs    14,077   .cif              `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_  
+CoRE MOF Original                     /disk2/CoRE_MOF_AsIs              10,367  .cif, .csv         `CoRE MOF <https://zenodo.org/records/14184621>`_                      
+MOFChecker Original                   /disk2/MOFChecker_AsIs              NaN     .csv             `MOFChecker <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_
+====================================  ================================  ======  =================  =======================================================================
 
 
 Detailed description
@@ -29,7 +30,7 @@ Detailed description
     - Count: 14,077
     - File Type: .cif
     - Relevant link: `CSD <https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/>`_
-    - Availablity: Free
+    - Availability: Free
     - Clone date: 3 March 2025
     
     The CSD MOF collection contains just over 14,000 3D MOF crystal structures available to use for free in academic research.
@@ -44,13 +45,26 @@ Detailed description
     - Count: 10,367 (for more detail visit the link)
     - File Type: .cif, .csv
     - Relevant link: `CoRE MOF <https://zenodo.org/records/14184621>`_
-    - Availablity: Free
+    - Availability: Free
     - Clone date: 3 March 2025
 
     The CoRE MOF database is a collection of MOFs where the structures are taken from the CSD and are cleaned and processed. 
     For more information on the cleaning and processing, visit the `Paper <https://pubs.acs.org/doi/10.1021/acs.jced.9b00835>`_ and the `Zenedo Link <https://zenodo.org/records/14184621>`_.
     The database has .csv files where some properties (e.g. topology and Zeo++) of the MOFs are stored.
+    All 5 versions are available in different folders like Version_2_0_1.
 
     **Naming:** The file names are diverse so check the directory to see the naming conventions.
     Usually they have the CCDC code + either "_clean_pacman" or "_freeONLY" or "_clean" or "_manual" + ".cif" as the extension.
     Example file names: "UGUXAV_clean_pacman.cif", "BEPNER_freeONLY.cif", "kinrik_clean.cif", "MEJZUY_clean.cif"
+
+3. **MOFChecker Original:**
+    - Location: /disk2/CoRE_MOF_AsIs
+    - Count: For more detail visit the link
+    - File Type: .cif, .csv
+    - Relevant link: `MOFChecker <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_
+    - Availability: Free
+    - Clone date: 3 March 2025
+
+    This dataset includes csv files containing information about the status of the cif files in different databases. 
+    These databases are CoREMOF2014, CoREMOF2019, CSD and Opendac. There are some references of fixed structures in fixed_structures_case.
+    For more detail see the `paper <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_ and `Zenedo Link <https://zenodo.org/records/14844662>`_
