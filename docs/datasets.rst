@@ -58,7 +58,7 @@ Detailed description
     Example file names: "UGUXAV_clean_pacman.cif", "BEPNER_freeONLY.cif", "kinrik_clean.cif", "MEJZUY_clean.cif"
 
 3. **MOFChecker Original:**
-    - Location: /disk2/CoRE_MOF_AsIs
+    - Location: /disk2/MOFChecker_AsIs
     - Count: For more detail visit the link
     - File Type: .cif, .csv
     - Relevant link: `MOFChecker <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_
