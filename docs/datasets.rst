@@ -62,7 +62,7 @@ Detailed description
     - Count: For more detail visit the link
     - File Type: .csv
     - Relevant link: `MOFChecker <https://chemrxiv.org/engage/chemrxiv/article-details/67aa2e72fa469535b9c2dcfd>`_
-    - Availability: `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/legalcode>`_
+    - Availability: `MIT License <https://opensource.org/license/MIT>`_
     - Clone date: 3 March 2025
 
     This dataset includes csv files containing information about the status of the cif files in different databases. 
