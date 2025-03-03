@@ -2,7 +2,7 @@
 watchdog>=3.0.0
 pip
 wheel
-sphinx_rtd_theme
+furo
 tox==3.14.0
 coverage==4.5.4
 Sphinx==7.2.6
